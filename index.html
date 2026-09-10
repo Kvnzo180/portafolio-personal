@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Roberto Antonio Reyes Mercado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#info-basica">Información básica</a></li>
+            <li><a href="#formacion">Formación académica</a></li>
+            <li><a href="#contactenos">Contáctenos</a></li>
+            <li><a href="#redes">Redes sociales</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <header id="inicio">
+            <img src="foto.jpg" alt="Roberto Reyes" class="profile-img">
+            <h1>Roberto Antonio Reyes Mercado</h1>
+            <p class="subtitle">Estudiante de Ingeniería de Sistemas</p>
+        </header>
+
+        <section id="info-basica">
+            <h2>Información Básica</h2>
+            <div class="info-grid">
+                <div class="info-item"><strong>Nombre completo:</strong> Roberto Antonio Reyes Mercado</div>
+                <div class="info-item"><strong>Lugar y fecha de nacimiento:</strong> Sahagún, Córdoba - 21 de Septiembre de 2006</div>
+                <div class="info-item"><strong>Dirección:</strong> Barrio Nueva Granada, Sahagún - Córdoba</div>
+                <div class="info-item"><strong>Teléfono:</strong> +57 301 693 4346</div>
+                <div class="info-item"><strong>Correo electrónico:</strong> rareyes@correo.unicordoba.edu.co</div>
+            </div>
+            <p><strong>Descripción personal:</strong> Soy estudiante de VI semestre de Ingeniería de Sistemas en la Universidad de Córdoba. Me caracterizo por ser una persona pragmática, enfocado en cumplir con mis compromisos académicos de manera responsable y eficiente. Mi objetivo es desarrollar las competencias requeridas en el plan de estudios, priorizando la resolución práctica de tareas y el cumplimiento de los objetivos establecidos en cada asignatura.</p>
+        </section>
+
+        <section id="formacion">
+            <h2>Formación Académica</h2>
+            
+            <h3>Estudios Realizados</h3>
+            <ul class="list-style">
+                <li><strong>Liceo Sahagún Cooperativo Mixto:</strong> Educación Secundaria (2018 - 2021)</li>
+                <li><strong>Colegio Militar Almirante Colón (Lorica, Córdoba):</strong> Educación Secundaria (2021 - 2022)</li>
+                <li><strong>Institución Educativa Andrés Rodríguez Balseiro:</strong> Bachiller Académico (2022 - 2023)</li>
+            </ul>
+
+            <h3>Formación en Curso</h3>
+            <ul class="list-style">
+                <li><strong>Ingeniería de Sistemas:</strong> VI Semestre en la Universidad de Córdoba (2024 - Presente)</li>
+            </ul>
+
+            <h3>Cursos, certificaciones o capacitaciones adicionales</h3>
+            <ul class="list-style">
+                <li>Certificado de finalización: Programming in MATLAB (MathWorks)</li>
+                <li>Certificado de finalización: MATLAB Onramp (MathWorks)</li>
+                <li>Curso de Análisis de Datos - Básico</li>
+            </ul>
+
+            <h3>Competencias y habilidades</h3>
+            <ul class="list-style">
+                <li>Manejo básico de HTML5, CSS3 y Figma</li>
+                <li>Lógica de programación y resolución de problemas</li>
+                <li>Responsabilidad y cumplimiento de objetivos académicos</li>
+            </ul>
+
+            <h3>Idiomas</h3>
+            <ul class="list-style">
+                <li><strong>Español:</strong> Hablante Nativo</li>
+                <li><strong>Inglés:</strong> Nivel - Básico</li>
+            </ul>
+        </section>
+
+        <section id="contactenos">
+            <h2>Formulario de Contáctenos</h2>
+            <form action="#">
+                
+                <div class="form-group">
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ej. Juan Pérez" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="telefono">Número de teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" placeholder="+57 300 000 0000">
+                </div>
+
+                <div class="form-group">
+                    <label for="fecha_nac">Fecha de nacimiento:</label>
+                    <input type="date" id="fecha_nac" name="fecha_nac">
+                </div>
+
+                <div class="form-group">
+                    <label for="horario">Horario disponible para contacto:</label>
+                    <input type="time" id="horario" name="horario">
+                </div>
+
+                <div class="form-group">
+                    <label for="edad">Edad:</label>
+                    <input type="number" id="edad" name="edad" min="1" max="120">
+                </div>
+
+                <div class="form-group full-width">
+                    <label>Género:</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="genero" value="masculino"> Masculino</label>
+                        <label><input type="radio" name="genero" value="femenino"> Femenino</label>
+                        <label><input type="radio" name="genero" value="otro"> Otro</label>
+                    </div>
+                </div>
+
+                <div class="form-group full-width">
+                    <label for="area_interes">Área de interés:</label>
+                    <select id="area_interes" name="area_interes">
+                        <option value="desarrollo_web">Desarrollo Web</option>
+                        <option value="bases_datos">Bases de Datos</option>
+                        <option value="redes">Redes</option>
+                        <option value="ia">Inteligencia Artificial</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+
+                <div class="form-group full-width">
+                    <label>Preferencia de contacto:</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="preferencia[]" value="email"> Email</label>
+                        <label><input type="checkbox" name="preferencia[]" value="telefono"> Teléfono</label>
+                        <label><input type="checkbox" name="preferencia[]" value="whatsapp"> WhatsApp</label>
+                    </div>
+                </div>
+
+                <div class="form-group full-width">
+                    <label for="cv">Adjuntar archivo (CV):</label>
+                    <input type="file" id="cv" name="cv">
+                </div>
+
+                <div class="form-group full-width">
+                    <label for="url_personal">URL personal o portafolio:</label>
+                    <input type="url" id="url_personal" name="url_personal" placeholder="https://github.com/tu-usuario">
+                </div>
+
+                <div class="form-group full-width">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" placeholder="Escriba su consulta o asunto aquí..."></textarea>
+                </div>
+
+                <div class="btn-container">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpiar</button>
+                </div>
+
+            </form>
+        </section>
+
+    </div>
+
+    <footer id="redes">
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/roberto-reyes-295825433/?isSelfProfile=true" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/Kvnzo180" target="_blank">GitHub</a> |
+            <a href="https://facebook.com" target="_blank">Facebook</a> |
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+        </div>
+        <p>© 2026 - Portafolio creado por Roberto Antonio Reyes Mercado</p>
+    </footer>
+
+</body>
+</html>
